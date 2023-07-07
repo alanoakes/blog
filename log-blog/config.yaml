@@ -1,18 +1,21 @@
 baseURL: https://alanoakes.github.io/
 languageCode: en-us
 defaultContentLanguage: en
-title: The Log Blog
+title: Log Blog
 theme: cupper-hugo-theme
 enableGitInfo: true
 
 taxonomies:
   tags: tags
 
+permalinks:
+  post: /:filename/
+
 imaging:
   quality: 99
 
 params:
-  description: Hello! My name is Parker & thank you for visiting my Log Blog.
+  description: Welcome! Log Blog is my personal blog. Have a question? Feel free to contact me or check out my github.
   footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed by [Github Pages](https://pages.github.com/).
   dateFormat: Jan 02, 2006
   katex: true
@@ -21,6 +24,17 @@ params:
   showThemeSwitcher: true
   defaultDarkTheme: false
   moveFooterToHeader: false
+  navTitleText: Log Blog
+  customCss:
+    - css/custom_01.css
+    - css/custom_02.css
+  customJs:
+    - js/custom_01.js
+    - js/custom_02.js
+  utterances:
+    repo: alanoakes/alanoakes.github.io
+    issueTerm: title
+    theme: github-light
 
 menu:
   nav:
@@ -40,3 +54,33 @@ menu:
       url: /index.xml
       weight: 5
 
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: false
+    highlight:
+      codeFences: false
+      hl_Lines: ""
+      lineNoStart: 1
+      lineNos: false
+      lineNumbersInTable: true
+      noClasses: true
+      style: monokai
+      tabWidth: 4
+    tableOfContents:
+      endLevel: 6
+      startLevel: 2
