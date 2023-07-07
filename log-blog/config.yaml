@@ -1,0 +1,42 @@
+baseURL: https://alanoakes.github.io/
+languageCode: en-us
+defaultContentLanguage: en
+title: The Log Blog
+theme: cupper-hugo-theme
+enableGitInfo: true
+
+taxonomies:
+  tags: tags
+
+imaging:
+  quality: 99
+
+params:
+  description: Hello! My name is Parker & thank you for visiting my Log Blog.
+  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed by [Github Pages](https://pages.github.com/).
+  dateFormat: Jan 02, 2006
+  katex: true
+  hideHeaderLinks: false
+  search: true
+  showThemeSwitcher: true
+  defaultDarkTheme: false
+  moveFooterToHeader: false
+
+menu:
+  nav:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Blog
+      url: /post/
+      weight: 2
+    - name: Tags
+      url: /tags/
+      weight: 3
+    - name: About
+      url: /about/
+      weight: 4
+    - name: RSS
+      url: /index.xml
+      weight: 5
+
