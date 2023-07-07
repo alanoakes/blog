@@ -24,7 +24,7 @@ params:
   showThemeSwitcher: true
   defaultDarkTheme: false
   moveFooterToHeader: false
-  navTitleText: Log Blog
+  # navTitleText: Log Blog
   customCss:
     - css/custom_01.css
     - css/custom_02.css
