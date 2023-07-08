@@ -29,13 +29,17 @@ a powerful aspect of God and yet as also "rottenness of the bones (Pro
 
 ### Word Study Correlations
 
-![pic1](1629870387101.jpg)
+{{< figureCupper
+img="1629870387101.jpg" 
+caption="Counting the word usage per book, you can see each translation depicts the Biblical narrative." 
+command="Resize" 
+options="900x" >}}
 
 ### VBA Sankey Chart
 
 Here is the code to try it yourself:
 
-```vbscript
+```vb
 Sub sankeyCluster()
   Dim i As Long, clstClr As Long, clust As String
   Dim src As Range, tgt As Range, wgt As Long, maxWgt As Long

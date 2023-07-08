@@ -9,16 +9,11 @@ Welcome to my **Log Blog**! I make blog posts about topics I find relevant for
 public consumption. Such as:
 
 {{< ticks >}}
-* Jesus Christ
-* The Bible & Word Studies
+* The Bible
 * Philosophy
 * Family
 * Coding
+* Shopify Theme Development
+* Cartography
 * Coffee
 {{< /ticks >}}
-
-{{< note >}}
-By trade (admittingly for fun as well), I have a lot of ongoing coding projects.
-Be sure to visit my
-[Github](https://github.com/alanoakes)
-{{</ note >}}

@@ -47,12 +47,18 @@ menu:
     - name: Tags
       url: /tags/
       weight: 3
+    - name: Projects
+      url: /projects/
+      weight: 4
+    - name: Shopify
+      url: /shopify/
+      weight: 5
     - name: About
       url: /about/
-      weight: 4
+      weight: 6
     - name: RSS
       url: /index.xml
-      weight: 5
+      weight: 7
 
 markup:
   defaultMarkdownHandler: goldmark
@@ -73,13 +79,13 @@ markup:
       unsafe: true
       xHTML: false
     highlight:
-      codeFences: false
+      codeFences: true
       hl_Lines: ""
       lineNoStart: 1
       lineNos: false
       lineNumbersInTable: true
       noClasses: true
-      style: monokai
+      style: colorful
       tabWidth: 4
     tableOfContents:
       endLevel: 6
