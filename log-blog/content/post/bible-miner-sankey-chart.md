@@ -29,7 +29,7 @@ a powerful aspect of God and yet as also "rottenness of the bones (Pro
 
 ### Word Study Correlations
 
-![pic1](images/1629870387101.jpg)
+![pic1](1629870387101.jpg)
 
 ### VBA Sankey Chart
 
