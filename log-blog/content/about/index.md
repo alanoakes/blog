@@ -4,26 +4,31 @@ date: 2023-07-07T11:20:00
 ---
 
 <div align="center">
-  <img alt="avatar" src="avatar_me.png" width="300" >
   <p>
-    I am a Christian, husband, father, and a Programmer Analyst. <br /><br />
-    As a Programmer Analyst with over a decade of experience in
-    customer service, my passion is developing applications and
-    solutions that work ... <br />
-    so you do not have to.
+    I am a Christian, husband, father, and a Programmer Analyst.
   </p>
   <p>
-    <a href="https://github.com/alanoakes">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" />
-    </a>&nbsp;&nbsp;
+    As a Programmer Analyst with over a decade of experience in
+    customer service, my passion is developing applications and
+    solutions that work ... &nbsp;&nbsp; so you do not have to.
+  </p>
+  <hr />
+  <p>
+    Feel free to connect with me on the below social media platforms or use my moonlander layout.
+  </p>
+  <p>
     <a href="https://www.linkedin.com/in/parker-oakes?trk=public_post_feed-actor-name">
       <img src="linkedin.svg" width="50" />
+    </a>&nbsp;&nbsp;
+    <a href="https://discordapp.com/users/.poakes">
+      <img src="discord.svg" width="50" />
+    </a>&nbsp;&nbsp;
+    <a href="about:blank">
+      <img src="slack.svg" width="50" />
     </a>&nbsp;&nbsp;
     <a href="https://configure.zsa.io/moonlander/layouts/PD3Xm/latest/0">
       <img src="moonlander.png" width="50" />
     </a>&nbsp;&nbsp;
-    <img src="fiverr.svg" width="50" />&nbsp;&nbsp;
-    <img src="upwork.svg" width="50" />
 
   </p>
 </div>
@@ -34,8 +39,6 @@ Programmer Analyst: "A person who analyzes and designs information systems and d
 
 ---
 
-### Personal Information
-
 ```yaml
 name: Parker Oakes
 located_in: Memphis, TN
@@ -45,9 +48,29 @@ education:
     "Self-Taught Developer & Data Analyst",
     "Associates of Science",
     "Data Science Certification(s) from Johns Hopkins"
-  ]
-company: CLK MultiFamily
-
+  ],
+email: "alan.p.oakes@gmail.com"
+programming_languages:
+  [
+    "Vimscript",
+    "JavaScript",
+    "C#",
+    "VBscript",
+    "CSS",
+    "HTML",
+    "SQL",
+    "R",
+    "bash"
+  ],
+current_editors:
+  [
+    "Vim",
+    "Obsidian",
+    "Visual Studio",
+    "RStudio",
+    "SQL Studio",
+    "Mass Code"
+  ],
 technical_background:
   [
     "Interactive & Dynamic Reports & Dashboards",

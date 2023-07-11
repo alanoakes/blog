@@ -15,22 +15,22 @@ imaging:
   quality: 99
 
 params:
-  description: Welcome! Log Blog is my personal blog. Have a question? Feel free to contact me or check out my github.
+  description: Have a question? Feel free to contact me or post an issue on my github.
   footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed by [Github Pages](https://pages.github.com/).
   dateFormat: Jan 02, 2006
   katex: true
-  hideHeaderLinks: false
+  hideHeaderLinks: true
   search: true
   showThemeSwitcher: true
   defaultDarkTheme: false
   moveFooterToHeader: false
   # navTitleText: Log Blog
   customCss:
-    - css/custom_01.css
-    - css/custom_02.css
+    # - css/dark.min.css
+    - css/github-dark.min.css
   customJs:
-    - js/custom_01.js
-    - js/custom_02.js
+    - js/highlight.min.js
+    # - js/custom_02.js
   utterances:
     repo: alanoakes/alanoakes.github.io
     issueTerm: title
@@ -50,15 +50,12 @@ menu:
     - name: Projects
       url: /projects/
       weight: 4
-    - name: Shopify
-      url: /shopify/
-      weight: 5
     - name: About
       url: /about/
-      weight: 6
+      weight: 5
     - name: RSS
       url: /index.xml
-      weight: 7
+      weight: 6
 
 markup:
   defaultMarkdownHandler: goldmark
@@ -78,15 +75,15 @@ markup:
       hardWraps: false
       unsafe: true
       xHTML: false
-    highlight:
-      codeFences: true
-      hl_Lines: ""
-      lineNoStart: 1
-      lineNos: false
-      lineNumbersInTable: true
-      noClasses: true
-      style: colorful
-      tabWidth: 4
-    tableOfContents:
-      endLevel: 6
-      startLevel: 2
+  highlight:
+    codeFences: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: dark
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 6
+    startLevel: 2
