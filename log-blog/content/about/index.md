@@ -19,16 +19,20 @@ date: 2023-07-07T11:20:00
   <p>
     <a href="https://www.linkedin.com/in/parker-oakes?trk=public_post_feed-actor-name">
       <img src="linkedin.svg" width="50" />
-    </a>&nbsp;&nbsp;
+    </a>
+    &nbsp;&nbsp;
     <a href="https://discordapp.com/users/.poakes">
       <img src="discord.svg" width="50" />
-    </a>&nbsp;&nbsp;
+    </a>
+    &nbsp;&nbsp;
     <a href="about:blank">
       <img src="slack.svg" width="50" />
-    </a>&nbsp;&nbsp;
+    </a>
+    &nbsp;&nbsp;
     <a href="https://configure.zsa.io/moonlander/layouts/PD3Xm/latest/0">
       <img src="moonlander.png" width="50" />
-    </a>&nbsp;&nbsp;
+    </a>
+    &nbsp;&nbsp;
 
   </p>
 </div>
@@ -42,14 +46,13 @@ Programmer Analyst: "A person who analyzes and designs information systems and d
 ```yaml
 name: Parker Oakes
 located_in: Memphis, TN
-current_job: Programmer Analyst
+email: "alan.p.oakes@gmail.com"
 education: 
   [
     "Self-Taught Developer & Data Analyst",
     "Associates of Science",
     "Data Science Certification(s) from Johns Hopkins"
   ],
-email: "alan.p.oakes@gmail.com"
 programming_languages:
   [
     "Vimscript",
