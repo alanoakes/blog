@@ -46,7 +46,7 @@ Programmer Analyst: "A person who analyzes and designs information systems and d
 ```yaml
 name: Parker Oakes
 located_in: Memphis, TN
-email: "alan.p.oakes@gmail.com"
+email: "parker@alanoakes.dev"
 education: 
   [
     "Self-Taught Developer & Data Analyst",

@@ -1,7 +1,7 @@
-baseURL: https://alanoakes.github.io/
+baseURL: https://alanoakes.dev
 languageCode: en-us
 defaultContentLanguage: en
-title: Log Blog
+title: alanoakes.dev
 theme: cupper-hugo-theme
 enableGitInfo: true
 
@@ -15,7 +15,7 @@ imaging:
   quality: 99
 
 params:
-  description: Have a question? Feel free to contact me or post an issue on my github.
+  description: Have a question or need some work done? Feel free to contact me!
   footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed by [Github Pages](https://pages.github.com/).
   dateFormat: Jan 02, 2006
   katex: true
@@ -41,7 +41,7 @@ menu:
     - name: Home
       url: /
       weight: 1
-    - name: Blog
+    - name: Log Blog
       url: /post/
       weight: 2
     - name: Tags

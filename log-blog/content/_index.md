@@ -67,18 +67,19 @@ h4#img-title {
 </style>
 
 <div align="center">
+  <!---
   <img alt="avatar" src="avatar_me.png" width="200" >
+  --->
   <p>
-    Hi! I'm Parker and welcome to the Log Blog! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+    Hi! I'm Parker and welcome to alanoakes.dev! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
     <br/><br/>
     This is my personal site that serves as a reference point containing
-    information regarding my past and current projects, such as Shopify Theme Development,
+    information regarding freelancing, my past and current projects, Shopify Theme Development,
     web applications, data mining/analysis, research and blogging.
   </p>
   <hr>
   <p>
-    Click on the below links to go to these projects or use the Log Blog menu to view local
-    content.
+    Click on the below links to go to access these projects, visit the "About" page to contact me, or use the menu to view local content.
   </p>
   <div class="flex-container">
     <div class="content" data-tooltip="GitHub is a code hosting platform for version control and collaboration.">
